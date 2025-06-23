@@ -47,7 +47,7 @@ public class BetterStrongholdsPlacement extends RandomSpreadStructurePlacement {
         super(locateOffset, frequencyReductionMethod, frequency, salt, exclusionZone, spacing, separation, randomSpreadType);
         this.chunkDistanceToFirstRing = chunkDistanceToFirstRing;
         this.ringChunkThickness = ringChunkThickness;
-        this.maxRingSection = maxRingSection;
+        this.maxRingSection = 1;
     }
 
     @Override
